@@ -1,7 +1,7 @@
 .food {
     display:inline-flex;
     gap: 5%;
-    width: 90%;
+    width: 100%;
 }
 
 .title {

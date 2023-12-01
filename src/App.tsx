@@ -17,14 +17,16 @@ function App() {
   return (
     <div className={styles.app}>
       <div className={styles.searchBox}>
-        <h2>Search</h2>
-        <input
-          id={styles.searchBoxInput}
-          placeholder="Find a recipe..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        >
-        </input>
+        <h2 className={styles.searchText}>Search</h2>
+        <div>
+          <input
+            id={styles.searchBoxInput}
+            placeholder="Find a food..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          >
+          </input>
+        </div>
       </div>
       <hr className={styles.horizontalLine}></hr>
       <div className={styles.foodList}>

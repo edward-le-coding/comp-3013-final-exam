@@ -1,21 +1,27 @@
 .app {
   margin: 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-.searchBox{
-  display: flex;
-  align-items: left;
-  justify-content: left;
+.searchBox {
+  display: inline-flex;
+  align-items: center;
   gap: 5%;
 }
 
 .horizontalLine {
   color: black;
 }
+
 .searchBoxInput {
-  height: fit-content;
+  top: 50%
 }
 
 .foodList {
-  display:block;
+  position: fixed;
+  display: block;
+  width: 100%;
 }
