@@ -1,0 +1,16 @@
+.food {
+    display:inline-flex;
+    gap: 5%;
+    width: 90%;
+}
+
+.title {
+    width: 33%
+}
+.description {
+    width: 67%;
+}
+
+.highlightText{
+    background-color: yellow;
+}

@@ -1,0 +1,21 @@
+.app {
+  margin: 5%;
+}
+
+.searchBox{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 5%;
+}
+
+.horizontalLine {
+  color: black;
+}
+.searchBoxInput {
+  height: fit-content;
+}
+
+.foodList {
+  display:block;
+}
